@@ -7,4 +7,3 @@ ADD . /root/micro-api/
 RUN /bin/bash /root/micro-api/setup.sh
 
 ENTRYPOINT ["/root/micro-api/boot.sh"]
-
